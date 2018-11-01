@@ -1,0 +1,14 @@
+ALTER TABLE [dbo].[ServiceOrderFee] ADD  CONSTRAINT [DF_ServiceOrderFee_ServiceFee]  DEFAULT ((0)) FOR [ServiceFee]
+GO
+
+ALTER TABLE [dbo].[ServiceOrderFee] ADD  CONSTRAINT [DF_ServiceOrderFee_WareHouseFee]  DEFAULT ((0)) FOR [WareHouseFee]
+GO
+
+ALTER TABLE [dbo].[ServiceOrderFee] ADD  CONSTRAINT [DF_ServiceOrderFee_ProcedureFee]  DEFAULT ((0)) FOR [ProcedureFee]
+GO
+
+ALTER TABLE [dbo].[ServiceOrderFee] ADD  CONSTRAINT [DF_ServiceOrderFee_OtherFee2]  DEFAULT ((0)) FOR [OtherFee2]
+GO
+
+
+家家家家家家家家家家家家家家
